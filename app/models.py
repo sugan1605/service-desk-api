@@ -1,8 +1,8 @@
 """
-Pydentic schemas used to validate ServiceDesk API request data.
+Pydantic schemas used to validate ServiceDesk API request data.
 """
+
 from pydantic import BaseModel
-from typing import Optional
 
 
 class TicketCreate(BaseModel):
@@ -15,5 +15,5 @@ class TicketCreate(BaseModel):
 
 
 class TicketUpdate(BaseModel):
-    status: Optional[str] = None    
-    priority: Optional[str] = None   
+    status: str | None = None    
+    priority: str | None = None   
