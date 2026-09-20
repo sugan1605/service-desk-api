@@ -5,6 +5,7 @@ A small REST API built with Python and FastAPI.
 This project is a hands-on practice project focused on building REST APIs and developing fluency through repetition.
 The project is intentionally kept small so the same API patterns can be practiced repeatedly.
 
+
 ## Purpose
 
 The purpose of this project is to repeatedly practice the fundamentals of REST API development in a realistic service-desk scenario.
@@ -19,8 +20,60 @@ This is a learning project, not a production service-desk application.
 - Python
 - FastAPI
 - Pydantic
+- PostgreSQL
+- SQL
 - Uvicorn
 - pytest
+- Ruff
+
+
+## Current Learning Focus
+
+The project is being developed incrementally to practice:
+
+- REST API fundamentals
+- CRUD operations
+- HTTP methods and status codes
+- Request and response validation
+- UUID identifiers
+- Error handling
+- SQL and relational databases
+- PostgreSQL
+- Python-to-database integration
+- API testing
+
+
+## Development Approach
+
+The project is intentionally developed in stages.
+
+
+### Stage 1 — REST API fundamentals
+
+- FastAPI
+- Pydantic
+- In-memory storage
+- CRUD endpoints
+
+
+### Stage 2 — PostgreSQL
+
+- SQL fundamentals
+- Relational database concepts
+- Tables and relationships
+- INSERT / SELECT / UPDATE / DELETE
+- Python-to-PostgreSQL integration
+- Replace in-memory storage with PostgreSQL
+
+
+### Stage 3 — Testing and tooling
+
+- pytest
+- API tests
+- Ruff
+- CI
+
+The goal is repetition and understanding rather than building a production-scale application.
 
 
 ## REST API Concepts Practiced
